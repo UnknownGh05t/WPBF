@@ -5,7 +5,13 @@
 # Write in Python
 
 import re, sys, requests
-
+green = "\033[92m"
+red = "\033[91m"
+yellow = "\033[93m"
+blue = "\033[94m"
+cyan = "\033[96m"
+white = "\033[97m"
+reset = "\033[0m"
 print green + """
 ╔════════════════════════════════════════════════════════════╗
 ║                                                            ║
