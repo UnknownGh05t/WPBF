@@ -20,6 +20,11 @@ print """
 ║                 Author : UnknownGh05t                      ║
 ║                                                            ║
 ╚════════════════════════════════════════════════════════════╝
+target = raw_input("[?] Target URL : ")
+username = raw_input("[?] Username   : ")
+wordlist = raw_input("[?] Wordlist   : ")
+
+buka_list = open(wordlist, "r")
 """
 
 buka_list = open(sys.argv[3], "r")
