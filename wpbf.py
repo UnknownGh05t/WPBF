@@ -6,7 +6,7 @@
 
 import re, sys, requests
 
-print """
+print green +  """
 ╔════════════════════════════════════════════════════════════╗
 ║                                                            ║
 ║ ██╗    ██╗██████╗ ██████╗ ███████╗                         ║
@@ -23,11 +23,11 @@ print """
 target = raw_input("[?] Target URL : ")
 username = raw_input("[?] Username   : ")
 wordlist = raw_input("[?] Wordlist   : ")
++ reset"""
+
 
 buka_list = open(wordlist, "r")
-"""
 
-buka_list = open(sys.argv[3], "r")
 raw_list = buka_list.read()
 list_passwd = raw_list.split("\n")
 
