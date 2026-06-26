@@ -6,7 +6,7 @@
 
 import re, sys, requests
 
-print green +  """
+print green + """
 ╔════════════════════════════════════════════════════════════╗
 ║                                                            ║
 ║ ██╗    ██╗██████╗ ██████╗ ███████╗                         ║
@@ -23,7 +23,7 @@ print green +  """
 target = raw_input("[?] Target URL : ")
 username = raw_input("[?] Username   : ")
 wordlist = raw_input("[?] Wordlist   : ")
-+ reset"""
+""" +reset
 
 
 buka_list = open(wordlist, "r")
