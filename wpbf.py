@@ -1,4 +1,5 @@
-#!/usr/bin/python
+#!/usr/bin/env python2
+# -*- coding: utf-8 -*-
 # Wordpress BruteForce
 # UnknownGh05t X LulzGhost Team
 # Write in Python
